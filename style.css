@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.levelup {
+    position: relative;
+}
+
+.levelup img {
+    width: 100%;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.button-left {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    font-size: 10vw;
+}
+.button-right{
+    font-size: 10vw;
+    position: absolute;
+    top: 35%;
+    right: 5%;
+}
+.levelup-text{
+    position: absolute;
+    color: white;
+    text-align: center;
+     width: 100%;
+     top: 22%;
+}
+
+/* brand section */
+
+#brand-icons {
+    width: 100%;
+}
+
+.brand-item {
+    width: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-item img {
+    width: 100%;
+    height: 70%;
+}
+
+.container-para {
+    display: flex;
+}
+
+/* new arrivals */
+.arrivals {
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.overlay {
+    width: 20%;
+    background-color: black;
+    height: 100%;
+    opacity: 0.9;
+    z-index: 2;
+    position: relative;
+}
+
+.overlay img {
+    width: 100%;
+}
+.overlay button{
+    position: absolute;
+    bottom: 20%;
+    left: 15%%;
+}
+
+/* most wanted */
+.most {
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+.most-wanted {
+    width: 20%;
+}
+.most-wanted img {
+    width: 100%;
+}
+.sale-tag{
+    background-color: red;
+    color: white;
+    border-radius: 10%;
+    font-size: 1vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 10%;
+   
+}
+.like-btn{
+    position: absolute;
+    width: 15%;
+    bottom: 5%;
+}
+/* limited offer */
+.limited{
+    background-color: #1D232C;
+    width: 100%;
+    padding: 5px;
+}
+.footer{
+    background-color:#1D232C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
